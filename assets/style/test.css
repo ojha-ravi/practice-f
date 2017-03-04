@@ -53,7 +53,11 @@ table {
 	box-sizing: border-box;
 }
 
-code {
+/*
+	Float
+*/
+
+/*code {
   background: #2db34a;
   border-radius: 6px;
   color: #fff;
@@ -85,4 +89,30 @@ footer {
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 50px solid green;
+}*/
+
+/*
+	Relative Positioning
+*/
+
+div {
+	height: 100px;
+	width: 100px;
+	background: grey;
+	padding-top: 10px;
+	border: 2px solid springgreen;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.offset {
+	background: none;
+	border: 2px dashed grey;
+}
+
+.offset div {
+	background: greenyellow;
+	position: relative;
+	left: 20px;
+	top: 20px;
 }
